@@ -33,9 +33,9 @@ return result;
 
 //-----------------------------------------------------
 
-let phrase = "Ceci est un test !"
-let tableau = [3, 1, 42, 32, 89]
-// 
+// let phrase = "Ceci est un test !"
+// let tableau = [3, 1, 42, 32, 89]
+//
 // alert( vowelCount(phrase) );
 // alert( myMax(tableau) );
 // alert( reverse(phrase) );
