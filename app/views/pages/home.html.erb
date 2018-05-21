@@ -1,0 +1,61 @@
+<h1>Wesh</h1>
+
+<div class="container border">
+  <div class="row">
+    <div class="col-lg-2 bg-warning">
+      <input type="button" class="btn" value=7 onclick="inputValue(value)"/>
+    </div>
+    <div class="col-lg-2 bg-warning">
+      <input type="button" class="btn" value=8 onclick="inputValue(value)" />
+    </div>
+    <div class="col-lg-2 bg-warning">
+      <input type="button" class="btn" value=9 onclick="inputValue(value)" />
+    </div>
+    <div class="col-lg-3">
+      <input type="button" class="btn" value="+" id="add()" onclick="inputAction(id)" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 bg-warning">
+      <input type="button" class="btn" value=4 onclick="inputValue(value)" />
+    </div>
+    <div class="col-lg-2 bg-warning">
+      <input type="button" class="btn" value=5 onclick="inputValue(value)" />
+    </div>
+    <div class="col-lg-2 bg-warning">
+      <input type="button" class="btn" value=6 onclick="inputValue(value)" />
+    </div>
+    <div class="col-lg-3">
+      <input type="button" class="btn" value="-" id="substract()" onclick="inputAction(id)" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 bg-warning">
+      <input type="button" class="btn" value=1 onclick="inputValue(value)" />
+    </div>
+    <div class="col-lg-2 bg-warning">
+      <input type="button" class="btn" value=2 onclick="inputValue(value)" />
+    </div>
+    <div class="col-lg-2 bg-warning">
+      <input type="button" class="btn" value=3 onclick="inputValue(value)" />
+    </div>
+    <div class="col-lg-3">
+      <input type="button" class="btn" value="*" id="multiply()" onclick="inputAction(id)" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 bg-warning">
+      <input type="button" class="btn" value=0 onclick="inputValue(value)" />
+    </div>
+    <div class="col-lg-2">
+      <input type="button" class="btn" value="." onclick="inputValue(value)" />
+    </div>
+    <div class="col-lg-2">
+      <input type="button" class="btn" value="CLEAR" onclick="resetAll()" />
+    </div>
+    <div class="col-lg-3">
+      <input type="button" class="btn" value="/" id="divide()" onclick="inputAction(id)" />
+    </div>
+</div>
+
+<input type="button" class="btn btn-primary" value="Result" onclick="inputResult()" />
