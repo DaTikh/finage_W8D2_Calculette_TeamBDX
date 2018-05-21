@@ -13,8 +13,5 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require bootstrap.bundle.min
-//= require bootstrap.min
-//= exos
-//= calc
+
 //= require_tree .

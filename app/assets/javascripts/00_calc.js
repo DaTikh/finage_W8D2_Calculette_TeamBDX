@@ -1,3 +1,6 @@
+//------ Blabla
+let trucDeFou = "miam"
+
 //---- VARIABLES ----------------------------------------------
 
 let buffer = 0
@@ -56,8 +59,22 @@ let inputAction = function(id) {
 }
 
 let inputResult = function() {
-  eval(actionBuffer);
+  if (actionBuffer != "") {
+    eval(actionBuffer);
+  } else {
+    operatingBuffer += +buffer;
+  }
   clearAction();
   clearBuffer();
   return
+}
+
+//---- OUTPUTS -----------------------------------------------
+
+function showResult(targetElementId) {
+  document.getElementById(targetElementId).innerHTML = operatingBuffer;
+}
+
+function showBuffer(targetElementId) {
+  document.getElementById(targetElementId).innerHTML = buffer;
 }
