@@ -47,9 +47,9 @@ Tu peux aussi cliquer sur tous les boutons au hasard pour voir ce que ça fait, 
 ## Les trucs cools à voir :
 
 Y'a principalement 3 fichiers à voir (et encore le html c'est vraiment pour voir comment on appelle les fonctions du script), je te mets le lien ici parce que je suis super sympa :
-  - [Le script pour les exos de chauffe](https://github.com/DaTikh/finage_W8D2_Calculette_TeamBDX/blob/master/app/assets/javascripts/exos.js "Easy peasy ça !")
-  - [Celui pour la calculette](https://github.com/DaTikh/finage_W8D2_Calculette_TeamBDX/blob/master/app/assets/javascripts/00_calc.js "TEXAS INSTRUMENT n'a qu'à bien se tenir!")
-  - [et donc le lien de la view en html.](https://github.com/DaTikh/finage_W8D2_Calculette_TeamBDX/blob/master/app/views/pages/home.html.erb "Pour la forme...")
+  - [Le script pour les exos de chauffe (app/assets/javascripts/exos.js)](https://github.com/DaTikh/finage_W8D2_Calculette_TeamBDX/blob/master/app/assets/javascripts/exos.js "Easy peasy ça !")
+  - [Celui pour la calculette (app/assets/javascripts/00_calc.js)](https://github.com/DaTikh/finage_W8D2_Calculette_TeamBDX/blob/master/app/assets/javascripts/00_calc.js "TEXAS INSTRUMENT n'a qu'à bien se tenir!")
+  - [et donc le lien de la view en html. (app/views/pages/home.html.erb)](https://github.com/DaTikh/finage_W8D2_Calculette_TeamBDX/blob/master/app/views/pages/home.html.erb "Pour la forme...")
   
 Et comme j'suis vraiment hyper cool tu pourras voir que j'ai mis plein de commentaires et tout ! ;)
 
