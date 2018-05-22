@@ -1,4 +1,5 @@
 <body onload="showResult('target');">
+
   <div class="container">
     <h1 class="text-center">Calculette CASIO GRAPH35+ TI82</h1>
   </div>
@@ -38,7 +39,7 @@
             <input type="button" class="btn btn-secondary" value="9" onclick="inputValue(value); showBuffer('target');" />
           </div>
           <div class="col-2">
-            <input type="button" class="btn btn-primary" value="+" id="add()" onclick="inputAction(id)" />
+            <input type="button" class="btn btn-primary" value="+" id="add()" onclick="inputAction(id); showResult('target')" />
           </div>
         </div>
 
@@ -53,7 +54,7 @@
             <input type="button" class="btn btn-secondary" value="6" onclick="inputValue(value); showBuffer('target');" />
           </div>
           <div class="col-2">
-            <input type="button" class="btn btn-primary" value="-" id="substract()" onclick="inputAction(id)" />
+            <input type="button" class="btn btn-primary" value="-" id="substract()" onclick="inputAction(id); showResult('target')" />
           </div>
         </div>
 
@@ -68,7 +69,7 @@
             <input type="button" class="btn btn-secondary" value="3" onclick="inputValue(value); showBuffer('target');" />
           </div>
           <div class="col-2">
-            <input type="button" class="btn btn-primary" value="*" id="multiply()" onclick="inputAction(id)" />
+            <input type="button" class="btn btn-primary" value="x" id="multiply()" onclick="inputAction(id); showResult('target')" />
           </div>
         </div>
 
@@ -83,13 +84,13 @@
             <input type="button" class="btn btn-danger" value="AC" onclick="resetAll(); showResult('target');" />
           </div>
           <div class="col-2">
-            <input type="button" class="btn btn-primary" value="/" id="divide()" onclick="inputAction(id)" />
+            <input type="button" class="btn btn-primary" value="/" id="divide()" onclick="inputAction(id); showResult('target')" />
           </div>
         </div>
 
         <div class="row inner row-last">
           <div class="col-3">
-            <input type="button" class="btn btn-success" value="RESULT" onclick="inputResult(); showResult('target');"/>
+            <input type="button" class="btn btn-success" value="=" onclick="inputResult(); showResult('target');"/>
           </div>
         </div>
       </div>
@@ -102,7 +103,6 @@
           <h3>Réalisé sans trucage par <a href="https://github.com/DaTikh" class="text-warning">@bab</a> !!</h3>
         </div>
       </div>
-
 
     </div>
 

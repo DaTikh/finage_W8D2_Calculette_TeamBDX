@@ -16,6 +16,10 @@
  *= require_self
  */
 
+ h1 {
+   margin: 100px auto;
+ }
+
 .calculator {
   display: flex;
   flex-direction: column;
@@ -36,7 +40,6 @@
   max-width: 400px;
   justify-content: center;
   text-align: center;
-  align-items: center;
 }
 
 .row-first {
@@ -45,10 +48,6 @@
 
 .row-last {
   margin-bottom: 40px;
-}
-
-h1 {
-  margin: 100px auto;
 }
 
 .credits {
