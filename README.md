@@ -36,7 +36,7 @@ Pour tester l'application en local, une fois dans le dossier cloné :
   @ http://localhost:3000/
 ```
 
-Sinon tu as le lien de prod en haut de ce readme et sur le dashboard THP !
+Sinon tu as le lien de prod en haut de [ce readme](https://github.com/DaTikh/finage_W8D2_Calculette_TeamBDX/blob/master/README.md "Bon c'est un peu con de cliquer là") et sur le [dashboard THP](https://www.thehackingproject.org/week/8/day/3 "Faut que tu sois log par contre !") !
 
 En appuyant sur la touche "F12" dans ton navigateur tu auras accès aux Developer Tools et à l'onglet "Console". Tu pourras y rentrer des commandes JS à loisir.
 
