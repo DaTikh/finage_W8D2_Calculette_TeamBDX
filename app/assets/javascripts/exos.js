@@ -1,3 +1,5 @@
+//---- MAXIMUM ---------------------------------------
+
 let myMax = function(array) {
   let i = 0;
   let max = array[0];
@@ -10,7 +12,7 @@ let myMax = function(array) {
     return max;
 }
 
-//-----------------------------------------------------
+//---- VOYELLES ----------------------------------------
 
 const VOWELS = ["a", "e", "i", "o", "u", "y"]
 
@@ -24,18 +26,17 @@ let vowelCount = function(string) {
   return count;
 }
 
-//-----------------------------------------------------
+//---- INVERSION --------------------------------------
 
 let reverse = function(string) {
   let result = string.split("").reverse().join("");
 return result;
 }
 
-//-----------------------------------------------------
+//---- VARIABLES --------------------------------------
 
-// let phrase = "Ceci est un test !"
-// let tableau = [3, 1, 42, 32, 89]
-//
-// alert( vowelCount(phrase) );
-// alert( myMax(tableau) );
-// alert( reverse(phrase) );
+let phrase = "Ceci est un test !";
+let tableau = [3, 1, 42, 276, 32, 89];
+
+
+//---- THE END :) -------------------------------------

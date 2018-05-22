@@ -33,8 +33,10 @@
 
 .row .inner {
   padding: 10px;
-  max-width: 500px;
+  max-width: 400px;
   justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .row-first {
@@ -47,4 +49,10 @@
 
 h1 {
   margin: 100px auto;
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

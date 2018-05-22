@@ -42,7 +42,10 @@ let resetAll =  function() {
 //---- INPUTS -----------------------------------------------
 
 let inputValue = function(value) {
-  return buffer += value;
+  if ( (buffer.toString().includes(".")) && value == "." ) {
+  } else {
+    return buffer += value;
+  }
 }
 
 let inputAction = function(id) {
@@ -68,10 +71,27 @@ let inputResult = function() {
 
 //---- OUTPUTS -----------------------------------------------
 
+function sizeIsOk(number) {
+  return number.length < 13 || number.length === undefined
+}
+
+function resetError(targetElementId) {
+  document.getElementById(targetElementId).innerHTML = "ERROR"
+  resetAll();
+}
+
 function showResult(targetElementId) {
-  document.getElementById(targetElementId).innerHTML = +operatingBuffer;
+  if (sizeIsOk(operatingBuffer)) {
+    document.getElementById(targetElementId).innerHTML = +operatingBuffer;
+  } else {
+    resetError(targetElementId);
+  }
 }
 
 function showBuffer(targetElementId) {
-  document.getElementById(targetElementId).innerHTML = +buffer;
+  if (sizeIsOk(buffer)) {
+    document.getElementById(targetElementId).innerHTML = +buffer;
+  } else {
+    resetError(targetElementId);
+  }
 }

@@ -1,13 +1,25 @@
 <body onload="showResult('target');">
   <div class="container">
-    <h1 class="text-center">Calculatrice</h1>
+    <h1 class="text-center">Calculette CASIO GRAPH35+ TI82</h1>
   </div>
 
   <div class="container calculator">
 
     <div class="row">
 
-      <div class="col-4">
+      <div class="col-4 bg-light">
+        <div class="row inner">
+          <p>Plus grande valeur sur le tableau : [3, 1, 42, 276, 32, 89]</p>
+          <p><input type="button" class="btn btn-info" value="Alert myMax" onclick="alert( myMax(tableau) );" /></p>
+        </div>
+        <div class="row inner">
+          <p>Compte les voyelles de la phrase : "Ceci est un test !"</p>
+          <input type="button" class="btn btn-info" value="Alert vowelCount" onclick="alert( vowelCount(phrase) );" />
+        </div>
+        <div class="row inner">
+          <p>Inverse l'ordre des caractères de la phrase : "Ceci est un test !"</p>
+          <input type="button" class="btn btn-info" value="Alert reverse" onclick="alert( reverse(phrase) );" />
+        </div>
       </div>
 
       <div class="col-4 bg-dark">
@@ -82,8 +94,15 @@
         </div>
       </div>
 
-      <div class="col-4">
+      <div class="col-4 bg-secondary text-white credits">
+        <div class="row inner">
+          <h2>Calculette en javascript</h2>
+        </div>
+        <div class="row inner">
+          <h3>Réalisé sans trucage par <a href="https://github.com/DaTikh" class="text-warning">@bab</a> !!</h3>
+        </div>
       </div>
+
 
     </div>
 
