@@ -16,7 +16,7 @@ Le projet du jour consiste à fabriquer une calculette en Javascript. 3 petits e
 Tu commences à avoir l'habitude, clone le repo et effectue cette commande :
 
 ```
-  $ bundle install --without production && rails db:migrate
+  $ bundle install --without production
 ```
 
 
