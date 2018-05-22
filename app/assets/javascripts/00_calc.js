@@ -1,6 +1,3 @@
-//------ Blabla
-let trucDeFou = "miam"
-
 //---- VARIABLES ----------------------------------------------
 
 let buffer = 0
@@ -72,9 +69,9 @@ let inputResult = function() {
 //---- OUTPUTS -----------------------------------------------
 
 function showResult(targetElementId) {
-  document.getElementById(targetElementId).innerHTML = operatingBuffer;
+  document.getElementById(targetElementId).innerHTML = +operatingBuffer;
 }
 
 function showBuffer(targetElementId) {
-  document.getElementById(targetElementId).innerHTML = buffer;
+  document.getElementById(targetElementId).innerHTML = +buffer;
 }
